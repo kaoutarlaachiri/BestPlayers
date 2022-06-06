@@ -1,0 +1,29 @@
+<table class="table  table-striped">
+    <thead>
+      <tr>
+        <th scope="col">classement</th>
+        <th scope="col">name</th>
+        <th scope="col">position</th>
+        <th scope="col">club</th>
+        <th scope="col">value in million €</th>
+        <th scope="col">nationality</th>
+
+      </tr>
+     
+    
+    </thead>
+    <tbody>
+      <tr *ngFor="let player of allplayers">
+        <td>{{player.classement}}</td>
+        <td>{{player.name}}</td>
+        <td>{{player.position}}</td>
+        <td>{{player.club}}</td>
+        <td>{{player.value}}</td>
+        <td>{{player.nationality}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+
+  
